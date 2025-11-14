@@ -2,6 +2,8 @@
   <div>
     <TheHeader />
     <TheHero />
-    <slot />
+    <main>
+      <slot />
+    </main>
   </div>
 </template>

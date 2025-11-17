@@ -1,18 +1,13 @@
 <template>
   <section class="pt-20 pb-12">
-    <div class="max-w-screen-2xl mx-auto px-12 mb-12">
-      <h2 class="text-4xl leading-tight font-bold tracking-normal uppercase">
-        Spaces We've Shaped
-      </h2>
-      <p class="leading-none font-normal text-lg">
+    <UContainer class="mb-12">
+      <h2 class="text-4xl font-bold uppercase">Spaces We've Shaped</h2>
+      <p class="text-lg">
         We create architecture defined by clarity, purpose, and a deep
         connection to place.
       </p>
-    </div>
-    <div
-      class="max-w-screen-2xl mx-auto px-12 mb-8"
-      style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px"
-    >
+    </UContainer>
+    <UContainer class="grid grid-cols-3 gap-5 mb-12">
       <NuxtImg
         width="600"
         height="400"
@@ -34,9 +29,9 @@
         format="webp"
         src="/recent3.jpg"
       />
-    </div>
-    <div class="max-w-screen-2xl mx-auto px-12 mb-8 text-center">
-      <UButton size="xl" class="bg-gray-950 text-gray-50">Explore more</UButton>
-    </div>
+    </UContainer>
+    <UContainer class="text-center">
+      <UButton size="xl">Explore more</UButton>
+    </UContainer>
   </section>
 </template>

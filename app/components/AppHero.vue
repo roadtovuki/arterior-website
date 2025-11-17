@@ -14,12 +14,8 @@
         Design with a dose of art
       </h1>
       <div class="flex gap-4">
-        <UButton size="xl" class="bg-gray-950 text-gray-50"
-          >Start your project</UButton
-        >
-        <UButton size="xl" class="bg-gray-50 text-gray-950"
-          >View our work</UButton
-        >
+        <UButton size="xl">Start your project</UButton>
+        <UButton size="xl" variant="outline">View our work</UButton>
       </div>
     </div>
   </div>

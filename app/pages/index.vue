@@ -1,5 +1,6 @@
 <template>
-  <section class="pt-20 pb-12">
+  <AppFeaturedInSection />
+  <section class="section">
     <UContainer class="mb-12">
       <h2 class="text-4xl font-bold uppercase">Spaces We've Shaped</h2>
       <p class="text-lg">

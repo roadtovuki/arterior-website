@@ -18,3 +18,7 @@
 body {
   @apply antialiased text-default bg-default scheme-light dark:scheme-dark;
 }
+
+.section {
+  @apply pt-20 pb-12;
+}

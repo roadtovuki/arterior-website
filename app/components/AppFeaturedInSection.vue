@@ -2,7 +2,7 @@
   <section class="pt-12 pb-4">
     <UContainer>
       <h2
-        class="text-xs font-bold uppercase tracking-[0.3em] text-stone-400 text-center mb-12"
+        class="text-xs font-bold uppercase tracking-[0.3em] text-neutral-400 text-center mb-12"
       >
         As Featured in
       </h2>

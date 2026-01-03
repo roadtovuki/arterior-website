@@ -34,7 +34,7 @@ const projects = [
 <template>
   <section class="section">
     <UContainer class="mb-12">
-      <h2 class="text-xl font-bold uppercase tracking-[0.3em] text-stone-400">
+      <h2 class="text-xl font-bold uppercase tracking-[0.3em] text-neutral-400">
         Spaces We've Shaped
       </h2>
     </UContainer>

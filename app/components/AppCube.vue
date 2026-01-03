@@ -20,7 +20,7 @@ onBeforeRender(({ delta }) => {
 
 <template>
   <TresMesh v-if="isLoaded" ref="cubeRef">
-    <TresBoxGeometry :args="[2.8, 2.8, 2.8]" />
+    <TresBoxGeometry :args="[3.2, 3.2, 3.2]" />
     <TresMeshStandardMaterial
       v-for="(texture, index) in textures"
       :key="index"

@@ -3,4 +3,5 @@
   <AppServicesSection />
   <AppFavouriteProjectsSection />
   <AppWallpaperIntroSection />
+  <AppTestimonialsOverviewSection />
 </template>

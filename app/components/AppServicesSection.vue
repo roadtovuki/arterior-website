@@ -48,7 +48,7 @@ const steps = [
   <section class="section">
     <UContainer class="mb-12">
       <h2
-        class="text-xl font-bold uppercase tracking-[0.3em] text-stone-400 mb-12"
+        class="text-xl font-bold uppercase tracking-[0.3em] text-neutral-400 mb-12"
       >
         Our Services
       </h2>
@@ -62,40 +62,18 @@ const steps = [
       >
         <UIcon
           :name="service.icon"
-          class="w-10 h-10 mb-8 text-stone-300 group-hover:text-stone-900 transition-colors duration-700"
+          class="w-10 h-10 mb-8 text-neutral-300 group-hover:text-neutral-900 transition-colors duration-700"
         />
         <h3 class="text-xl font-bold mb-4 uppercase tracking-tight">
           {{ service.title }}
         </h3>
-        <p class="text-stone-500 leading-relaxed">
+        <p class="text-neutral-500 leading-relaxed">
           {{ service.description }}
         </p>
       </div>
     </UContainer>
 
     <UContainer>
-      <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-12">
-            <div
-              v-for="(step, index) in steps"
-              :key="step.title"
-              class="flex gap-6 group"
-            >
-              <div
-                class="text-5xl font-extralight text-stone-200 group-hover:text-stone-900 transition-colors leading-none"
-              >
-                0{{ index + 1 }}
-              </div>
-              <div>
-                <h4 class="text-md font-bold uppercase mb-3 tracking-wide">
-                  {{ step.title }}
-                </h4>
-                <p class="text-stone-500 text-sm leading-relaxed">
-                  {{ step.desc }}
-                </p>
-              </div>
-            </div>
-          </div> -->
-
       <UStepper :items="steps" size="md" />
     </UContainer>
   </section>

@@ -1,3 +1,36 @@
+<script setup lang="ts">
+useGallery();
+
+const projects = [
+  {
+    name: 'The Concrete House',
+    image: '/recent1.jpg',
+    area: '240',
+    location: 'Sarajevo, BiH',
+    type: 'Residential',
+    description: 'A minimalist exploration of raw materials and natural light.',
+  },
+  {
+    name: 'The Concrete House',
+    image: '/recent2.jpg',
+    area: '240',
+    location: 'Sarajevo, BiH',
+    type: 'Residential',
+    description: 'A minimalist exploration of raw materials and natural light.',
+  },
+  {
+    name: 'The Concrete House',
+    image: '/recent3.jpg',
+    area: '240',
+    location: 'Sarajevo, BiH',
+    type: 'Residential',
+    description: 'A minimalist exploration of raw materials and natural light.',
+  },
+
+  // Add other projects here...
+];
+</script>
+
 <template>
   <section class="section">
     <UContainer class="mb-12">
@@ -59,35 +92,3 @@
     </UContainer>
   </section>
 </template>
-
-<script setup lang="ts">
-useGallery();
-
-const projects = [
-  {
-    name: 'The Concrete House',
-    image: '/recent1.jpg',
-    area: '240',
-    location: 'Sarajevo, BiH',
-    type: 'Residential',
-    description: 'A minimalist exploration of raw materials and natural light.',
-  },
-  {
-    name: 'The Concrete House',
-    image: '/recent2.jpg',
-    area: '240',
-    location: 'Sarajevo, BiH',
-    type: 'Residential',
-    description: 'A minimalist exploration of raw materials and natural light.',
-  },
-  {
-    name: 'The Concrete House',
-    image: '/recent3.jpg',
-    area: '240',
-    location: 'Sarajevo, BiH',
-    type: 'Residential',
-    description: 'A minimalist exploration of raw materials and natural light.',
-  },
-  // Add other projects here...
-];
-</script>

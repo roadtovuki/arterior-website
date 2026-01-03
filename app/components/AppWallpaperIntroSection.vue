@@ -1,0 +1,54 @@
+<template>
+  <section class="section">
+    <UContainer class="mb-12">
+      <h2 class="text-4xl font-bold uppercase">Curated Surfaces & Spaces</h2>
+      <p class="text-lg">
+        Bespoke wallcoverings and architecture that harmonize purpose with a
+        deep connection to place.
+      </p>
+    </UContainer>
+
+    <UContainer
+      class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-24 items-center mb-16"
+    >
+      <div class="md:col-span-1">
+        <div class="group mb-4">
+          <h3
+            class="text-xs font-bold uppercase tracking-[0.2em] text-stone-400 mb-4 group-hover:text-stone-600 transition-colors"
+          >
+            01. Materiality & Tactility
+          </h3>
+          <h4 class="text-2xl font-semibold text-stone-800 mb-3">
+            Physical Narrative
+          </h4>
+          <p class="text-stone-600 leading-relaxed">
+            Surfaces are the skin of architecture. Our collection uses mineral
+            pigments and natural fibers to create textures that evolve as light
+            shifts throughout the day.
+          </p>
+        </div>
+
+        <div class="group">
+          <h3
+            class="text-xs font-bold uppercase tracking-[0.2em] text-stone-400 mb-4 group-hover:text-stone-600 transition-colors"
+          >
+            02. Spatial Harmony
+          </h3>
+          <h4 class="text-2xl font-semibold text-stone-800 mb-3">
+            Architectural Resonance
+          </h4>
+          <p class="text-stone-600 leading-relaxed">
+            We don’t just decorate; we integrate. Our patterns align with
+            structural lines to create a seamless dialogue between the wall and
+            the volume it encloses.
+          </p>
+        </div>
+      </div>
+      <AppWallpaperCube class="md:col-span-2" />
+    </UContainer>
+
+    <UContainer class="text-center">
+      <UButton size="xl" variant="outline">Explore more</UButton>
+    </UContainer>
+  </section>
+</template>

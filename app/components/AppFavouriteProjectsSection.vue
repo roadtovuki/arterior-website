@@ -14,8 +14,11 @@
       <UCard
         v-for="project in projects"
         :key="project.name"
+        as="a"
         variant="outline"
-        class="group cursor-pointer"
+        class="group cursor-pointer glightbox"
+        :href="project.image"
+        :data-glightbox="`description: .custom-desc`"
       >
         <div class="overflow-hidden">
           <NuxtImg
@@ -29,20 +32,22 @@
         </div>
 
         <template #footer>
-          <div class="flex justify-between items-start">
-            <div>
-              <h4 class="text-lg uppercase tracking-wider font-medium">
-                {{ project.name }}
-              </h4>
-              <p class="text-sm text-neutral-500 uppercase tracking-wide">
-                {{ project.location }}
-              </p>
-            </div>
-            <div class="text-right">
-              <p class="text-sm font-medium">{{ project.area }} m²</p>
-              <p class="text-xs text-neutral-400 uppercase tracking-tighter">
-                {{ project.type }}
-              </p>
+          <div class="custom-desc">
+            <div class="flex justify-between items-start">
+              <div>
+                <h4 class="text-lg uppercase tracking-wider font-medium">
+                  {{ project.name }}
+                </h4>
+                <p class="text-sm text-neutral-500 uppercase tracking-wide">
+                  {{ project.location }}
+                </p>
+              </div>
+              <div class="text-right">
+                <p class="text-sm font-medium">{{ project.area }} m²</p>
+                <p class="text-xs text-neutral-400 uppercase tracking-tighter">
+                  {{ project.type }}
+                </p>
+              </div>
             </div>
           </div>
         </template>
@@ -56,6 +61,8 @@
 </template>
 
 <script setup lang="ts">
+useGallery();
+
 const projects = [
   {
     name: 'The Concrete House',

@@ -8,12 +8,12 @@ import {
 } from 'three';
 
 const images = [
-  '/wallpaper4.svg',
-  '/wallpaper4.svg',
-  '/wallpaper4.svg',
-  '/wallpaper4.svg',
-  '/wallpaper4.svg',
-  '/wallpaper4.svg',
+  '/wallpaper1.svg',
+  '/wallpaper1.svg',
+  '/wallpaper1.svg',
+  '/wallpaper1.svg',
+  '/wallpaper1.svg',
+  '/wallpaper1.svg',
 ];
 
 const textures = ref<Texture[]>([]);

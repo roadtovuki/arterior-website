@@ -54,13 +54,13 @@ const testimonials = [
         v-for="(item, index) in testimonials"
         :key="index"
         :ui="{
-          root: 'h-full flex flex-col',
+          root: 'h-full flex flex-col group transition-colors duration-300 hover:ring-neutral-400',
           body: 'flex-grow flex flex-col',
         }"
       >
         <UIcon
           name="i-heroicons-chat-bubble-bottom-center-text"
-          class="size-6"
+          class="size-6 text-neutral-200 transition-colors duration-300 group-hover:text-neutral-500"
         />
 
         <p

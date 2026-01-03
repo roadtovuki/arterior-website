@@ -55,22 +55,23 @@ const steps = [
     </UContainer>
 
     <UContainer class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
-      <div
+      <UCard
         v-for="service in services"
         :key="service.title"
-        class="p-10 border border-stone-100 hover:border-stone-400 transition-all duration-700 group flex flex-col items-center text-center"
+        variant="outline"
+        class="border border-stone-100 hover:ring-stone-400 transition-all duration-700 group flex flex-col items-center"
       >
         <UIcon
           :name="service.icon"
-          class="w-10 h-10 mb-8 text-neutral-300 group-hover:text-neutral-900 transition-colors duration-700"
+          class="size-6 mb-8 text-neutral-200 group-hover:text-neutral-500 transition-colors duration-700"
         />
-        <h3 class="text-xl font-bold mb-4 uppercase tracking-tight">
+        <h3 class="text-md font-bold mb-4 uppercase tracking-tight">
           {{ service.title }}
         </h3>
         <p class="text-neutral-500 leading-relaxed">
           {{ service.description }}
         </p>
-      </div>
+      </UCard>
     </UContainer>
 
     <UContainer>

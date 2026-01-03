@@ -1,11 +1,9 @@
 <template>
   <section class="section">
     <UContainer class="mb-12">
-      <h2 class="text-4xl font-bold uppercase">Curated Surfaces & Spaces</h2>
-      <p class="text-lg">
-        Bespoke wallcoverings and architecture that harmonize purpose with a
-        deep connection to place.
-      </p>
+      <h2 class="text-xl font-bold uppercase tracking-[0.3em] text-stone-400">
+        Curated Surfaces & Spaces
+      </h2>
     </UContainer>
 
     <UContainer

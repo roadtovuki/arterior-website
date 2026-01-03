@@ -1,8 +1,10 @@
 <template>
   <section class="pt-12 pb-4">
     <UContainer>
-      <h2 class="text-xl text-center font-bold uppercase mb-8">
-        As Featured In
+      <h2
+        class="text-xs font-bold uppercase tracking-[0.3em] text-stone-400 text-center mb-12"
+      >
+        As Featured in
       </h2>
       <div class="flex items-center justify-center gap-5">
         <NuxtImg

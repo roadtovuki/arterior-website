@@ -34,11 +34,9 @@ const projects = [
 <template>
   <section class="section">
     <UContainer class="mb-12">
-      <h2 class="text-4xl font-bold uppercase">Spaces We've Shaped</h2>
-      <p class="text-lg">
-        We create architecture defined by clarity, purpose, and a deep
-        connection to place.
-      </p>
+      <h2 class="text-xl font-bold uppercase tracking-[0.3em] text-stone-400">
+        Spaces We've Shaped
+      </h2>
     </UContainer>
 
     <UContainer

@@ -11,9 +11,9 @@ const { onBeforeRender } = useLoop();
 
 onBeforeRender(({ delta }) => {
   if (cubeRef.value && props.isLoaded) {
-    cubeRef.value.rotation.x += delta * 0.3;
+    cubeRef.value.rotation.x += delta * 0.4;
     cubeRef.value.rotation.y += delta * 0.3;
-    cubeRef.value.rotation.z += delta * 0.1;
+    cubeRef.value.rotation.z += delta * 0.3;
   }
 });
 </script>

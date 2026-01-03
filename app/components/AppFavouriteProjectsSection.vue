@@ -1,0 +1,86 @@
+<template>
+  <section class="section">
+    <UContainer class="mb-12">
+      <h2 class="text-4xl font-bold uppercase">Spaces We've Shaped</h2>
+      <p class="text-lg">
+        We create architecture defined by clarity, purpose, and a deep
+        connection to place.
+      </p>
+    </UContainer>
+
+    <UContainer
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16"
+    >
+      <UCard
+        v-for="project in projects"
+        :key="project.name"
+        variant="outline"
+        class="group cursor-pointer"
+      >
+        <div class="overflow-hidden">
+          <NuxtImg
+            :src="project.image"
+            class="transition-transform duration-700 group-hover:scale-105"
+            width="600"
+            height="400"
+            fit="cover"
+            format="webp"
+          />
+        </div>
+
+        <template #footer>
+          <div class="flex justify-between items-start">
+            <div>
+              <h4 class="text-lg uppercase tracking-wider font-medium">
+                {{ project.name }}
+              </h4>
+              <p class="text-sm text-neutral-500 uppercase tracking-wide">
+                {{ project.location }}
+              </p>
+            </div>
+            <div class="text-right">
+              <p class="text-sm font-medium">{{ project.area }} m²</p>
+              <p class="text-xs text-neutral-400 uppercase tracking-tighter">
+                {{ project.type }}
+              </p>
+            </div>
+          </div>
+        </template>
+      </UCard>
+    </UContainer>
+
+    <UContainer class="text-center">
+      <UButton size="xl" variant="outline">Explore more</UButton>
+    </UContainer>
+  </section>
+</template>
+
+<script setup lang="ts">
+const projects = [
+  {
+    name: 'The Concrete House',
+    image: '/recent1.jpg',
+    area: '240',
+    location: 'Sarajevo, BiH',
+    type: 'Residential',
+    description: 'A minimalist exploration of raw materials and natural light.',
+  },
+  {
+    name: 'The Concrete House',
+    image: '/recent2.jpg',
+    area: '240',
+    location: 'Sarajevo, BiH',
+    type: 'Residential',
+    description: 'A minimalist exploration of raw materials and natural light.',
+  },
+  {
+    name: 'The Concrete House',
+    image: '/recent3.jpg',
+    area: '240',
+    location: 'Sarajevo, BiH',
+    type: 'Residential',
+    description: 'A minimalist exploration of raw materials and natural light.',
+  },
+  // Add other projects here...
+];
+</script>

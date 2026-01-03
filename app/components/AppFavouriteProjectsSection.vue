@@ -86,7 +86,7 @@ const projects = [
     </UContainer>
 
     <UContainer class="text-center">
-      <UButton size="xl" variant="outline">Explore more</UButton>
+      <UButton size="xl" variant="outline">Explore Portfolio</UButton>
     </UContainer>
   </section>
 </template>

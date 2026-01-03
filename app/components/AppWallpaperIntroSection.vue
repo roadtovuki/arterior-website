@@ -46,7 +46,7 @@
     </UContainer>
 
     <UContainer class="text-center">
-      <UButton size="xl" variant="outline">Explore more</UButton>
+      <UButton size="xl" variant="outline">View Collection</UButton>
     </UContainer>
   </section>
 </template>

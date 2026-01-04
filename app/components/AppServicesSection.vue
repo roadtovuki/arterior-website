@@ -59,7 +59,7 @@ const steps = [
         v-for="service in services"
         :key="service.title"
         variant="outline"
-        class="border border-stone-100 hover:ring-stone-400 transition-all duration-700 group flex flex-col items-center"
+        class="ring-neutral-300 hover:ring-neutral-400 transition-all duration-700 group flex flex-col items-center"
       >
         <UIcon
           :name="service.icon"

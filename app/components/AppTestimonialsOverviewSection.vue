@@ -40,7 +40,7 @@ const testimonials = [
 </script>
 
 <template>
-  <section class="section bg-stone-100/50">
+  <section class="section bg-neutral-100/50">
     <UContainer class="mb-12">
       <h2 class="text-xl font-bold uppercase tracking-[0.3em] text-neutral-400">
         Client stories
@@ -54,7 +54,7 @@ const testimonials = [
         v-for="(item, index) in testimonials"
         :key="index"
         :ui="{
-          root: 'h-full flex flex-col group transition-colors duration-300 hover:ring-neutral-400',
+          root: 'h-full flex flex-col group transition-colors duration-300 ring-neutral-300 hover:ring-neutral-400',
           body: 'flex-grow flex flex-col',
         }"
       >

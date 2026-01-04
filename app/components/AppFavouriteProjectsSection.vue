@@ -32,7 +32,7 @@ const projects = [
 </script>
 
 <template>
-  <section class="section bg-stone-100/50">
+  <section class="section bg-neutral-100/50">
     <UContainer class="mb-12">
       <h2 class="text-xl font-bold uppercase tracking-[0.3em] text-neutral-400">
         Spaces We've Shaped

@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-stone-900 text-stone-50 pt-20 pb-10 border-t border-stone-800"
+    class="bg-neutral-900 text-neutral-50 pt-20 pb-10 border-t border-neutral-800"
   >
     <UContainer>
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
@@ -8,7 +8,7 @@
           <h2 class="text-2xl font-bold uppercase tracking-tighter mb-6">
             Arterior
           </h2>
-          <p class="text-stone-400 text-sm leading-relaxed max-w-xs">
+          <p class="text-neutral-400 text-sm leading-relaxed max-w-xs">
             Designing spaces with a dose of art. We create architecture defined
             by clarity, purpose, and a deep connection to place.
           </p>
@@ -16,21 +16,21 @@
 
         <div>
           <h4
-            class="text-xs font-bold uppercase tracking-[0.2em] text-stone-500 mb-6"
+            class="text-xs font-bold uppercase tracking-[0.2em] text-neutral-500 mb-6"
           >
             Contact
           </h4>
-          <ul class="space-y-4 text-sm text-stone-300">
+          <ul class="space-y-4 text-sm text-neutral-300">
             <li class="flex items-center gap-3">
-              <UIcon name="i-heroicons-envelope" class="text-stone-500" />
+              <UIcon name="i-heroicons-envelope" class="text-neutral-500" />
               studio@arterior.ba
             </li>
             <li class="flex items-center gap-3">
-              <UIcon name="i-heroicons-phone" class="text-stone-500" />
+              <UIcon name="i-heroicons-phone" class="text-neutral-500" />
               +387 33 000 000
             </li>
             <li class="flex items-center gap-3">
-              <UIcon name="i-heroicons-map-pin" class="text-stone-500" />
+              <UIcon name="i-heroicons-map-pin" class="text-neutral-500" />
               Sarajevo, BiH
             </li>
           </ul>
@@ -38,11 +38,11 @@
 
         <div>
           <h4
-            class="text-xs font-bold uppercase tracking-[0.2em] text-stone-500 mb-6"
+            class="text-xs font-bold uppercase tracking-[0.2em] text-neutral-500 mb-6"
           >
             Studio
           </h4>
-          <ul class="space-y-4 text-sm text-stone-300">
+          <ul class="space-y-4 text-sm text-neutral-300">
             <li>
               <NuxtLink to="/about" class="hover:text-white transition-colors"
                 >Our Story</NuxtLink
@@ -68,7 +68,7 @@
 
         <div>
           <h4
-            class="text-xs font-bold uppercase tracking-[0.2em] text-stone-500 mb-6"
+            class="text-xs font-bold uppercase tracking-[0.2em] text-neutral-500 mb-6"
           >
             Follow Us
           </h4>
@@ -99,21 +99,21 @@
       </div>
 
       <div
-        class="pt-10 border-t border-stone-800 flex flex-col md:flex-row justify-between items-center gap-6"
+        class="pt-10 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center gap-6"
       >
-        <p class="text-stone-600 text-[10px] uppercase tracking-widest">
+        <p class="text-neutral-600 text-[10px] uppercase tracking-widest">
           &copy; {{ new Date().getFullYear() }} Arterior Architecture & Design.
           All rights reserved.
         </p>
         <div class="flex gap-8">
           <NuxtLink
             to="/privacy"
-            class="text-stone-600 text-[10px] uppercase tracking-widest hover:text-stone-400"
+            class="text-neutral-600 text-[10px] uppercase tracking-widest hover:text-neutral-400"
             >Privacy Policy</NuxtLink
           >
           <NuxtLink
             to="/terms"
-            class="text-stone-600 text-[10px] uppercase tracking-widest hover:text-stone-400"
+            class="text-neutral-600 text-[10px] uppercase tracking-widest hover:text-neutral-400"
             >Terms of Service</NuxtLink
           >
         </div>

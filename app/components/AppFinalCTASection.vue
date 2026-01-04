@@ -1,5 +1,5 @@
 <template>
-  <section class="section bg-stone-700 text-stone-50">
+  <section class="bg-stone-900 section text-stone-50">
     <UContainer>
       <div class="max-w-4xl mx-auto text-center py-12 md:py-20">
         <h2

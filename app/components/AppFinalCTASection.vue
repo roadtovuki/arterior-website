@@ -20,7 +20,12 @@
           wallcoverings, let’s discuss how we can shape your space together.
         </p>
 
-        <UButton size="2xl"> Contact our studio </UButton>
+        <UButton
+          size="2xl"
+          class="bg-neutral-50 text-neutral-900 hover:bg-neutral-200"
+        >
+          Contact our studio
+        </UButton>
       </div>
     </UContainer>
   </section>

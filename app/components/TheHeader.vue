@@ -1,5 +1,17 @@
+<script setup lang="ts">
+const { y } = useWindowScroll();
+const isScrolled = computed(() => y.value > 50);
+</script>
+
 <template>
-  <header class="h-12 p-6 flex justify-between items-center fixed w-full z-[1]">
+  <header
+    class="h-12 p-6 flex justify-between items-center fixed w-full z-[1]"
+    :class="[
+      isScrolled
+        ? 'bg-neutral-900/80 backdrop-blur-md h-16'
+        : 'bg-transparent h-20',
+    ]"
+  >
     <div class="flex items-center gap-8">
       <div class="text-gray-50">Arterior</div>
       <div class="flex gap-6">
